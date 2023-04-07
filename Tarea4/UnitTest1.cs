@@ -23,6 +23,11 @@ namespace Tarea4
             Citas prueba = new();
             prueba.IniciarPruebas();
         }
-
+        [Fact]
+        public void Test4()
+        {
+            RegistroOfVirtual prueba = new();
+            prueba.IniciarPruebas();
+        }
     }
 }
